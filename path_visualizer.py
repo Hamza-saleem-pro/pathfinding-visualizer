@@ -1,8 +1,4 @@
-"""
-Interactive Pathfinding Visualizer
-Run: python path_visualizer.py
-"""
-
+# Version 1.1 - Code Refactoring and Optimization
 import tkinter as tk
 import heapq
 import random
@@ -263,4 +259,5 @@ class PathfinderGUI:
 if __name__ == "__main__":
     root = tk.Tk()
     PathfinderGUI(root)
+
     root.mainloop()
