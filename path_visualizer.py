@@ -33,6 +33,7 @@ def h_euclidean(a, b):
 def h_chebyshev(a, b):
     return max(abs(a[0] - b[0]), abs(a[1] - b[1]))
 
+# Added heuristic optimization logic
 
 HEURISTIC_MAP = {
     "Manhattan": h_manhattan,
@@ -261,3 +262,4 @@ if __name__ == "__main__":
     PathfinderGUI(root)
 
     root.mainloop()
+
