@@ -25,3 +25,5 @@ Python 3.10 or higher
 No external libraries required
 
 ## How to Run
+
+python path_visualizer.py
